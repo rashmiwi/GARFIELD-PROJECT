@@ -20,6 +20,15 @@ select.addEventListener("change", function () {
     else if(character === "pookyCharacter"){
         image.src = "assets/PookyCharacter.webp";
     }
+    else if(character === "scoobydoo"){
+        image.src = "assets/scoobydoo.webp";
+    }
+    else if(character === "velma"){
+        image.src = "assets/velma.png";
+    }
+    else if(character === "shaggy"){
+        image.src = "assets/shaggy.jpg";
+    }
     else{
         image.src = "";
     }
